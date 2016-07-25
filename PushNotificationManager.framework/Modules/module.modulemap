@@ -1,0 +1,10 @@
+framework module PushNotificationManager {
+  umbrella header "PushNotificationManager.h"
+
+  export *
+  module * { export * }
+}
+
+module PushNotificationManager.Swift {
+    header "PushNotificationManager-Swift.h"
+}
